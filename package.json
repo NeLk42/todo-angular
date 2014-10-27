@@ -5,6 +5,11 @@
     "test": "jasmine-node test/todo.spec.js"
   },
   "dependencies": {
-    "jasmine-node": "^1.14.5"
+    "angular": "^1.3.0",
+    "body-parser": "^1.9.1",
+    "express": "^4.10.0",
+    "jasmine-node": "^1.14.5",
+    "method-override": "^2.3.0",
+    "morgan": "^1.4.1"
   }
 }
