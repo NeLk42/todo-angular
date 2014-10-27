@@ -1,0 +1,7 @@
+{
+  "name": "todo-angular",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jasmine-node test/todo.spec.js"
+  }
+}
