@@ -1,9 +1,19 @@
-var express = require('express');
-var app 	= express(); 	
+angular.module('todoApp', [])
+	.controller('todoController', ['$scope', function($scope) {
+		$scope.todos = [
+			{ name : 'First todo', done : false},
+			{ name : 'Second todo', done : true}
+		];
+  }]);
 
 
-app.get('/', function(req, res){
-  res.send('hello world');
-});
+	
+// var todoApp = angular.module('todoApp', []);
 
-app.listen(4444);
+// function todoController($scope, $http) {
+//     $scope.todos = {};
+//     $scope.todos = {[
+// 			{ name : 'First todo', done : false},
+// 			{ name : 'Second todo', done : true}
+// 		]};
+// 	}
